@@ -10,7 +10,7 @@
 
 <body>
   <div id="content">
-    <h1>A hálózati címfordítás*</h1>
+    <h1>A hálózati címfordítás<a href="https://hu.wikipedia.org/wiki/Hálózati_címfordítás">*</a> </h1>
     <div class="frame"><img src="ipv4fogyas.png" alt="IPcalypse" title="IPcalypse">
       <p class="imgtitle"> Az IPv4 címek fogyása</p>
     </div>
@@ -44,6 +44,28 @@
       szabványoknak megfelelően belsőnek ismer el, és így azokat nem irányítja közvetlenül a külső hálózat felé. A belső
       címeket az alábbi táblázat mutatja be:
     </p>
+    <table >
+      <tr>
+          <th>RFC1918</th>
+          <th>IP-címtartomány</th>
+          <th>egyedi címek száma</th>
+      </tr>
+      <tr>
+          <td>24 bites blokk</td>
+          <td>10.0.0.0 – 10.255.255.255</td>
+          <td>16 777 216</td>
+      </tr>
+      <tr>
+          <td>20 bites blokk</td>
+          <td>172.16.0.0 – 172.31.255.255</td>
+          <td>1 048 576</td>
+      </tr>
+      <tr>
+          <td>16 bites blokk</td>
+          <td>192.168.0.0 – 192.168.255.255</td>
+          <td>65 536</td>
+      </tr>
+  </table>
 
     <p>A címfordítás segítségével megoldható, hogy akár egy egész cég teljes belső hálózati forgalma egyetlen külső IP
       cím
